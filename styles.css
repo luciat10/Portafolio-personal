@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to bottom, white,#fbe2c0, #95e1fc);
+}
+
+.contenedor figure img{
+    width: 180px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    margin: 2px;
+    width: 190px;
+}
+
+header nav ul li a{
+    background-color: rgb(41, 41, 26);
+    display: block;
+    color: white;
+    letter-spacing: 1px;
+    padding: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid rgb(206, 203, 18);
+}
+
+header nav ul li a:hover{
+    background-color: rgb(230, 88, 22);
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#divPrincipal{
+    height: 350px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../img/programacion.jpg);
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    width: 100%;
+    color: rgb(64, 211, 28);
+    font-size: 70px;
+    text-shadow: 3px 3px 5px rgb(255, 155, 155);
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(165, 10, 75),#036ac48a, #eb6dc1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*********************************Sobre Mi**********************************/
+#SobreMi{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#SobreMi article{
+    width: 400px;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.Articulo1 img{
+    width: 350px;
+}
+
+#SobreMi p{
+    margin: 10px 0;
+}
+
+/*********************************Fase 1 y 2**********************************/
+
+.Fases{
+    margin: 30px 0;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Fases h2{
+    margin-bottom: 20px;
+}
+
+.Fases article{
+    display: flex;
+}
+
+.Fases img{
+    width: 300px;
+}
+
+.Fases div{
+    width: 400px;
+    text-align: center;
+    margin: auto 30px;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.Fases p{
+    margin-bottom: 15px;
+}
+
+#J2 div{
+    float: left;
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(128, 8, 8);
+    height: 35px;
+    text-align: center;
+}
+
+footer p{
+    color: rgb(19, 223, 121);
+    font-size: 20px;
+    padding-top: 6px;
+}
